@@ -13,19 +13,16 @@
 @interface AsyncSocketManager () <GCDAsyncSocketDelegate>
 
 //客户端socket
-@property(nonatomic) GCDAsyncSocket *clinetSocket;
+@property (nonatomic, strong) GCDAsyncSocket *clinetSocket;
 
 @end
 
-
 @implementation AsyncSocketManager
-
-#pragma mark - GCDAsynSocket Delegate
 
 - (instancetype)init {
     if(self =[super init]) {
-        
-        self.clinetSocket= [[GCDAsyncSocket alloc]initWithDelegate:self delegateQueue:dispatch_get_main_queue()];
+        self.clinetSocket= [[GCDAsyncSocket alloc] initWithDelegate:self
+                                                      delegateQueue:dispatch_get_main_queue()];
     }
     return self;
 }
@@ -74,11 +71,8 @@
 }
 
 //接收消息
-
 - (void)receiveMessageAction:(id)sender {
-    
     [self.clinetSocket readDataWithTimeout:11 tag:0];
-    
 }
 
 - (void)showMessageWithStr:(NSString*)str {

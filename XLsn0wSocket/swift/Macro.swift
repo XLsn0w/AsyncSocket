@@ -1,12 +1,16 @@
-//
-//  SNScoketConfig.swift
-//  Swift-IM
-//
-//  Created by zhangrongwu on 2017/2/20.
-//  Copyright © 2017年 bocom. All rights reserved.
-//
 
+import UIKit
 import Foundation
+
+let path = NSSearchPathForDirectoriesInDomains(FileManager.SearchPathDirectory.documentDirectory,FileManager.SearchPathDomainMask.userDomainMask, true)[0] as NSString
+
+let kScreenW = UIScreen.main.bounds.width
+let kScreenH = UIScreen.main.bounds.height
+
+//let BGCOLOR: UIColor = UIColor(g)
+
+
+
 let heartBeatTimeinterval = 40 // 发送心跳时间间隔
 let kMaxReconnection_time = 6  // 重链接次数
 let beatLimit = 5  // 心跳回调最大限度

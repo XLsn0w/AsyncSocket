@@ -9,45 +9,37 @@
 /* Begin PBXBuildFile section */
 		0F06CB0CC9B620CFC7777A98 /* Pods_XLsn0wSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7609AB8A9EB05B76FB65BE31 /* Pods_XLsn0wSocket.framework */; };
 		306EEEE41FD4EEF70002A1A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306EEEE31FD4EEF70002A1A6 /* AppDelegate.swift */; };
-		306EEEE61FD4EEF70002A1A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306EEEE51FD4EEF70002A1A6 /* ViewController.swift */; };
 		306EEEE91FD4EEF70002A1A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 306EEEE71FD4EEF70002A1A6 /* Main.storyboard */; };
 		306EEEEB1FD4EEF70002A1A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 306EEEEA1FD4EEF70002A1A6 /* Assets.xcassets */; };
 		306EEEEE1FD4EEF70002A1A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 306EEEEC1FD4EEF70002A1A6 /* LaunchScreen.storyboard */; };
-		30F486921FD4FA5A00F96F9B /* SEBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F486861FD4FA5A00F96F9B /* SEBaseViewController.swift */; };
-		30F486931FD4FA5A00F96F9B /* SECommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F486871FD4FA5A00F96F9B /* SECommon.swift */; };
-		30F486941FD4FA5A00F96F9B /* SEMessageSocketManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F486881FD4FA5A00F96F9B /* SEMessageSocketManager.swift */; };
+		30F486931FD4FA5A00F96F9B /* Macro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F486871FD4FA5A00F96F9B /* Macro.swift */; };
+		30F486941FD4FA5A00F96F9B /* MessageSocketManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F486881FD4FA5A00F96F9B /* MessageSocketManager.swift */; };
 		30F486951FD4FA5A00F96F9B /* SEMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F486891FD4FA5A00F96F9B /* SEMessageViewController.swift */; };
-		30F486961FD4FA5A00F96F9B /* SENavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F4868A1FD4FA5A00F96F9B /* SENavigationViewController.swift */; };
 		30F486971FD4FA5A00F96F9B /* SERequestPackage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F4868B1FD4FA5A00F96F9B /* SERequestPackage.swift */; };
 		30F486981FD4FA5A00F96F9B /* SESocketCommManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F4868C1FD4FA5A00F96F9B /* SESocketCommManager.swift */; };
-		30F486991FD4FA5A00F96F9B /* SESocketManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F4868D1FD4FA5A00F96F9B /* SESocketManager.swift */; };
+		30F486991FD4FA5A00F96F9B /* SocketManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F4868D1FD4FA5A00F96F9B /* SocketManager.swift */; };
 		30F4869A1FD4FA5A00F96F9B /* SESocketRequestBaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F4868E1FD4FA5A00F96F9B /* SESocketRequestBaseManager.swift */; };
-		30F4869B1FD4FA5A00F96F9B /* SETabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F4868F1FD4FA5A00F96F9B /* SETabBarViewController.swift */; };
-		30F4869C1FD4FA5A00F96F9B /* SETools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F486901FD4FA5A00F96F9B /* SETools.swift */; };
-		30F4869D1FD4FA5A00F96F9B /* SNScoketConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F486911FD4FA5A00F96F9B /* SNScoketConfig.swift */; };
+		30F4869B1FD4FA5A00F96F9B /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F4868F1FD4FA5A00F96F9B /* TabBarViewController.swift */; };
+		30F4869C1FD4FA5A00F96F9B /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F486901FD4FA5A00F96F9B /* Tools.swift */; };
 		30F486BF1FD51F9500F96F9B /* AsyncSocketManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F486BE1FD51F9500F96F9B /* AsyncSocketManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		306EEEE01FD4EEF70002A1A6 /* XLsn0wSocket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XLsn0wSocket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		306EEEE31FD4EEF70002A1A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		306EEEE51FD4EEF70002A1A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		306EEEE81FD4EEF70002A1A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		306EEEEA1FD4EEF70002A1A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		306EEEED1FD4EEF70002A1A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		306EEEEF1FD4EEF70002A1A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		30F486861FD4FA5A00F96F9B /* SEBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SEBaseViewController.swift; sourceTree = "<group>"; };
-		30F486871FD4FA5A00F96F9B /* SECommon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SECommon.swift; sourceTree = "<group>"; };
-		30F486881FD4FA5A00F96F9B /* SEMessageSocketManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SEMessageSocketManager.swift; sourceTree = "<group>"; };
+		30F486871FD4FA5A00F96F9B /* Macro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Macro.swift; sourceTree = "<group>"; };
+		30F486881FD4FA5A00F96F9B /* MessageSocketManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageSocketManager.swift; sourceTree = "<group>"; };
 		30F486891FD4FA5A00F96F9B /* SEMessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SEMessageViewController.swift; sourceTree = "<group>"; };
-		30F4868A1FD4FA5A00F96F9B /* SENavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SENavigationViewController.swift; sourceTree = "<group>"; };
 		30F4868B1FD4FA5A00F96F9B /* SERequestPackage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SERequestPackage.swift; sourceTree = "<group>"; };
 		30F4868C1FD4FA5A00F96F9B /* SESocketCommManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SESocketCommManager.swift; sourceTree = "<group>"; };
-		30F4868D1FD4FA5A00F96F9B /* SESocketManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SESocketManager.swift; sourceTree = "<group>"; };
+		30F4868D1FD4FA5A00F96F9B /* SocketManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketManager.swift; sourceTree = "<group>"; };
 		30F4868E1FD4FA5A00F96F9B /* SESocketRequestBaseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SESocketRequestBaseManager.swift; sourceTree = "<group>"; };
-		30F4868F1FD4FA5A00F96F9B /* SETabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SETabBarViewController.swift; sourceTree = "<group>"; };
-		30F486901FD4FA5A00F96F9B /* SETools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SETools.swift; sourceTree = "<group>"; };
-		30F486911FD4FA5A00F96F9B /* SNScoketConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SNScoketConfig.swift; sourceTree = "<group>"; };
+		30F4868F1FD4FA5A00F96F9B /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		30F486901FD4FA5A00F96F9B /* Tools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
 		30F486BC1FD51F9400F96F9B /* XLsn0wSocket-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XLsn0wSocket-Bridging-Header.h"; sourceTree = "<group>"; };
 		30F486BD1FD51F9500F96F9B /* AsyncSocketManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AsyncSocketManager.h; sourceTree = "<group>"; };
 		30F486BE1FD51F9500F96F9B /* AsyncSocketManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AsyncSocketManager.m; sourceTree = "<group>"; };
@@ -90,15 +82,14 @@
 			isa = PBXGroup;
 			children = (
 				306EEEE31FD4EEF70002A1A6 /* AppDelegate.swift */,
-				306EEEE51FD4EEF70002A1A6 /* ViewController.swift */,
-				30F4868F1FD4FA5A00F96F9B /* SETabBarViewController.swift */,
+				30F4868F1FD4FA5A00F96F9B /* TabBarViewController.swift */,
 				306EEEE71FD4EEF70002A1A6 /* Main.storyboard */,
 				306EEEEA1FD4EEF70002A1A6 /* Assets.xcassets */,
 				306EEEEC1FD4EEF70002A1A6 /* LaunchScreen.storyboard */,
 				306EEEEF1FD4EEF70002A1A6 /* Info.plist */,
 				30F486BC1FD51F9400F96F9B /* XLsn0wSocket-Bridging-Header.h */,
-				30F486BB1FD51E3C00F96F9B /* objc */,
 				30F486851FD4FA5A00F96F9B /* swift */,
+				30F486BB1FD51E3C00F96F9B /* objc */,
 			);
 			path = XLsn0wSocket;
 			sourceTree = "<group>";
@@ -106,17 +97,14 @@
 		30F486851FD4FA5A00F96F9B /* swift */ = {
 			isa = PBXGroup;
 			children = (
-				30F486861FD4FA5A00F96F9B /* SEBaseViewController.swift */,
-				30F486871FD4FA5A00F96F9B /* SECommon.swift */,
-				30F486881FD4FA5A00F96F9B /* SEMessageSocketManager.swift */,
+				30F486871FD4FA5A00F96F9B /* Macro.swift */,
+				30F486901FD4FA5A00F96F9B /* Tools.swift */,
+				30F4868D1FD4FA5A00F96F9B /* SocketManager.swift */,
+				30F486881FD4FA5A00F96F9B /* MessageSocketManager.swift */,
 				30F486891FD4FA5A00F96F9B /* SEMessageViewController.swift */,
-				30F4868A1FD4FA5A00F96F9B /* SENavigationViewController.swift */,
 				30F4868B1FD4FA5A00F96F9B /* SERequestPackage.swift */,
 				30F4868C1FD4FA5A00F96F9B /* SESocketCommManager.swift */,
-				30F4868D1FD4FA5A00F96F9B /* SESocketManager.swift */,
 				30F4868E1FD4FA5A00F96F9B /* SESocketRequestBaseManager.swift */,
-				30F486901FD4FA5A00F96F9B /* SETools.swift */,
-				30F486911FD4FA5A00F96F9B /* SNScoketConfig.swift */,
 			);
 			path = swift;
 			sourceTree = "<group>";
@@ -280,20 +268,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				30F4869A1FD4FA5A00F96F9B /* SESocketRequestBaseManager.swift in Sources */,
-				30F4869D1FD4FA5A00F96F9B /* SNScoketConfig.swift in Sources */,
-				306EEEE61FD4EEF70002A1A6 /* ViewController.swift in Sources */,
-				30F4869B1FD4FA5A00F96F9B /* SETabBarViewController.swift in Sources */,
+				30F4869B1FD4FA5A00F96F9B /* TabBarViewController.swift in Sources */,
 				30F486BF1FD51F9500F96F9B /* AsyncSocketManager.m in Sources */,
-				30F486921FD4FA5A00F96F9B /* SEBaseViewController.swift in Sources */,
-				30F4869C1FD4FA5A00F96F9B /* SETools.swift in Sources */,
-				30F486961FD4FA5A00F96F9B /* SENavigationViewController.swift in Sources */,
-				30F486931FD4FA5A00F96F9B /* SECommon.swift in Sources */,
-				30F486991FD4FA5A00F96F9B /* SESocketManager.swift in Sources */,
+				30F4869C1FD4FA5A00F96F9B /* Tools.swift in Sources */,
+				30F486931FD4FA5A00F96F9B /* Macro.swift in Sources */,
+				30F486991FD4FA5A00F96F9B /* SocketManager.swift in Sources */,
 				306EEEE41FD4EEF70002A1A6 /* AppDelegate.swift in Sources */,
 				30F486951FD4FA5A00F96F9B /* SEMessageViewController.swift in Sources */,
 				30F486981FD4FA5A00F96F9B /* SESocketCommManager.swift in Sources */,
 				30F486971FD4FA5A00F96F9B /* SERequestPackage.swift in Sources */,
-				30F486941FD4FA5A00F96F9B /* SEMessageSocketManager.swift in Sources */,
+				30F486941FD4FA5A00F96F9B /* MessageSocketManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

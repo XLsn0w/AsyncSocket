@@ -10,7 +10,7 @@
 
 @interface AsyncSocketManager : NSObject
 
-@property (nonatomic, copy) NSString *IP;
+@property (nonatomic, copy)   NSString *IP;
 @property (nonatomic, assign) NSInteger port;
 
 @end

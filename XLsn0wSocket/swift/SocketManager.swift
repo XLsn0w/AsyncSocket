@@ -1,10 +1,4 @@
-//
-//  SESocketManager.swift
-//  Swift-IM
-//
-//  Created by zhangrongwu on 2017/2/20.
-//  Copyright © 2017年 bocom. All rights reserved.
-//  项目与框架连接模块
+
 
 import UIKit
 import CocoaAsyncSocket

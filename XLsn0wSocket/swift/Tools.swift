@@ -1,12 +1,6 @@
-//
-//  SETools.swift
-//  Swift-IM
-//
-//  Created by zhangrongwu on 2017/2/18.
-//  Copyright © 2017年 bocom. All rights reserved.
-//
 
 import UIKit
+
 enum Validate {
     case email(_: String)
     case phoneNum(_: String)
@@ -53,6 +47,7 @@ enum Validate {
         return predicate.evaluate(with: currObject)
     }
 }
-class SETools: NSObject {
+
+class Tools: NSObject {
 
 }

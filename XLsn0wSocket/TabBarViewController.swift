@@ -1,14 +1,7 @@
-//
-//  SETabBarViewController.swift
-//  Swift-IM
-//
-//  Created by zhangrongwu on 2017/2/18.
-//  Copyright © 2017年 bocom. All rights reserved.
-//
 
 import UIKit
 
-class SETabBarViewController: UITabBarController {
+class TabBarViewController: UITabBarController {
 
 //
 //    required init?(coder aDecoder: NSCoder) {
@@ -35,7 +28,7 @@ class SETabBarViewController: UITabBarController {
         controller.title = title
         controller.tabBarItem.image = UIImage(named: image)
         controller.tabBarItem.selectedImage = UIImage(named: selectedImage)
-        let naviController = SENavigationViewController.init(rootViewController: controller)
+        let naviController = UINavigationController.init(rootViewController: controller)
         addChildViewController(naviController)
         
     }

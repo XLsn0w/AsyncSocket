@@ -1,11 +1,4 @@
-//
-//  SESocketCommManager.swift
-//  Swift-IM
-//
-//  Created by zhangrongwu on 2017/2/20.
-//  Copyright © 2017年 bocom. All rights reserved.
 //  所有tcp请求入口、出口 <数据处理、断开连接后重新发送数据>
-
 import UIKit
 import SwiftyJSON
 import Foundation
